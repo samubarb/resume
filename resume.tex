@@ -10,7 +10,7 @@
 
 % moderncv themes
 \moderncvstyle{casual}                             % style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
-\moderncvcolor{purple}                               % color options 'black', 'blue' (default), 'burgundy', 'green', 'grey', 'orange', 'purple' and 'red'
+\moderncvcolor{blue}                               % color options 'black', 'blue' (default), 'burgundy', 'green', 'grey', 'orange', 'purple' and 'red'
 %\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
 %\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
 
@@ -63,43 +63,47 @@
 \setlength{\parskip}{5pt}
 
 \section{Education}
-
 \cventry{Oct 2014 - Present}{B.Sc. Student in Computer Science and Engineering}{Politecnico di Milano}{Milan (Italy)}
 {}{}
 
-\section{Projects}
+\section{Publications}
+\cventry{Oct 2019}{FARD: Accelerating Distributed Fog Computing
+Workloads through Embedded FPGAs}{Embedded Operating Systems Workshop (EWiLi)}{New York (USA)}{}{}
+\cventry{Sep 2018}{Fog Acceleration through Reconfigurable Devices}{2019 IEEE 5th International forum on Research and Technology for Society and Industry (RTSI)}{Palermo (Italy)}{}{}
 
-\cventry{Nov 2018 - Present}{NECSTEat}{NECSTLab - Politecnico di Milano}{Milan (Italy)}{}
+\section{Most significat works}
+\cventry{Sep 2019 - Present}{BlastFunction}{NECSTLab - Politecnico di Milano}{Milan (Italy)}{}
 {
-	I am developing in Go/Revel the entire website of our project, from the user interface to the back-end and database management. The online platform allows users to easily manage group meals at work, with suggestions based on personal diets and providing food from affiliated local stores. We won the first phase in an hackathon competition and I am in the middle of implementation stage.
-}
-
-\cventry{Oct 2018}{METIS: Matching nEeds Through personalIzed Services}{NECSTLab - Politecnico di Milano}{Milan (Italy)}{}
-{
-	I participated to a hackathon on rare diseases hosted by \textit{Shire} coordinating a five people team. I also developed our application mock-up which helps simplifying travels for people affected by rare diseases, finding accessibility information for public areas and specialized structures in the destination place.
+    I'm working on a pre-existing project the field of cloud computing. BlastFunction is a service that allows to hardware accelerate specific functions on FPGAs in a \textit{Serverless} fashion way. I covered a test suite to retrieve power consumption data of the cluster and I'm now migrating BlastFunction to \textit{Amazon Web Services}.
 }
 
 \cventry{Dec 2017 - Jun 2018}{FARD: Fog Acceleration through Reconfigurable Devices}{NECSTLab - Politecnico di Milano}{Milan (Italy)}{}
 {
-	As part of the \textit{Xilinx Open Hardware} competition, I contributed in the design of a distributed and heterogeneous fog computing network, able to hardware-accelerate and distribute compute intensive workloads near the source of the data.
-	In the specific I implemented in Python a pipeline to extract the number of vehicles from a video stream, exploiting OpenCV library, and subsequently adapted and optimized it in C/C++ to be synthesized on FPGA through \textit{Vivado HLS}.
+    As part of the \textit{Xilinx Open Hardware} competition, I contributed in the design of a distributed and heterogeneous fog computing network, able to hardware-accelerate and distribute compute intensive workloads near the source of the data.
+    In the specific I implemented in Python a pipeline to extract the number of vehicles from a video stream, exploiting OpenCV library, and subsequently adapted and optimized it in C/C++ to be synthesized on FPGA through \textit{Vivado HLS}.
 }
 
-\cventry{Jan 2018 - Jun 2018}{Software Engineering Final Project}{Politecnico di Milano}{Milan (Italy)}{}
-{
-	I developed a Java video-game based on a competitive board game called \textit{Sagrada}. I built a CLI and a GUI to play with, mainly using \textit{JavaFX} framework, and led the team through every step of the project.
-}
+% \cventry{Nov 2018 - Mar 2019}{NECSTEat}{NECSTLab - Politecnico di Milano}{Milan (Italy)}{}
+% {
+%   I am developing in Go/Revel the entire website of our project, from the user interface to the back-end and database management. The online platform allows users to easily manage group meals at work, with suggestions based on personal diets and providing food from affiliated local stores.
+% }
 
+% \cventry{Oct 2018}{METIS: Matching nEeds Through personalIzed Services}{NECSTLab - Politecnico di Milano}{Milan (Italy)}{}
+% {
+%   I participated to a hackathon on rare diseases hosted by \textit{Shire} coordinating a five people team. I also developed our application mock-up which helps simplifying travels for people affected by rare diseases, finding accessibility information for public areas and specialized structures in the destination place.
+% }
+
+% \cventry{Jan 2018 - Jun 2018}{Software Engineering Final Project}{Politecnico di Milano}{Milan (Italy)}{}
+% {
+%   I developed a Java video-game based on a competitive board game called \textit{Sagrada}. I built a CLI and a GUI to play with, mainly using \textit{JavaFX} framework, and led the team through every step of the project.
+% }
 \section{Languages}
-
 \cvline{Italian}{Native speaker}
 \cvline{English}{Fluent}
 
 \section{Computer skills}
-
-\cvline{Languages}{Java, Go, C, C++, Python, Bash}
-\cvline{OS / Cloud}{Linux, Docker/Kubernetes (basics)}
-\cvline{Frameworks}{JavaFX, Revel}
+\cvline{Languages}{Java, Python, C, C++, Bash, Go, Flask, JavaFX, Revel}
+\cvline{Technologies}{Docker, Kubernetes, Terraform}
 \cvline{Others}{Git, Vivado HLS, Matlab, \LaTeX}
 
 % \section{Education}
